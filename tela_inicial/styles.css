@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+:root {
+    --cor-primaria: #214099;
+    --cor-secundaria: #000000;
+
+    --fonte-primaria: "Inter", sans-serif;
+}
+
+
+.cabecalho {
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.selecao {
+    display: flex;
+    justify-content: center;
+    margin: 1% 20%;
+    border: 2px solid var(--cor-primaria);
+    text-align: center;
+    border-radius: 40px;
+   
+}
+
+.selecao__opcoes {  
+    margin: 7%;
+    width: 15%;
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+}
+
+.selecao__opcoes__icones{
+    width: 50%;
+    height: auto;
+}
+
+.selecao__opcoes__servico{
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.selecao__opcoes__servico:hover{
+    color: var(--cor-primaria);
+}
+
+.selecao__login {
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+}
+
+.selecao__login__cadastro {
+    color: var(--cor-secundaria);
+    text-decoration: none;
+}
+
+.selecao__login__cadastro:hover {
+    color: var(--cor-primaria);
+}
+
+.rodape {
+    padding-top: 8%;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    font-size: 1.5rem;
+}
